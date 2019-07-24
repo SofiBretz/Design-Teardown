@@ -139,10 +139,6 @@ section {
   border-radius: 10px;
 }
 
-#fifthSection {
-  border: solid black 1px;
-}
-
 .fifthSectionBox {
   display: grid;
   grid-template-columns: 4fr 1fr;
@@ -160,10 +156,6 @@ section {
   width: 200px;
 }
 
-#sixthSection * {
-  border: solid green 1px;
-}
-
 #sixthSection {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -174,6 +166,7 @@ section {
   display: flex;
   flex-direction: column;
   text-align: center;
+  border: solid black 1px;
 }
 
 .sixthSectionBox li   {
@@ -205,16 +198,30 @@ section {
 }
 
 /*footer*/
-#footerSection *{
+footer {
+  height: 800px;
   border: solid black 1px;
 }
 
-#footerSection{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#footerSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px;
 }
 
 .footerSectionBox {
+  border: solid black 1px;
+}
 
+.footerSectionBox ul {
+  list-style-type: none;
+  border: solid blue 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSectionBox li {
+  border: solid black 1px;
+  margin-right: 10px;
+  width: max-content;
 }
