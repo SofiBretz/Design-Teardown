@@ -3,7 +3,7 @@ body * {
   font-family: 'Roboto';
 }
 
-header {
+nav {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 150px;
@@ -100,4 +100,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#personWeekBox {  
+  border: solid black 1px;
+}
+
+#personWeek * {
+  border: solid black 1px;
 }
