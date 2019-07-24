@@ -102,10 +102,47 @@ nav {
   justify-content: center;
 }
 
-#personWeekBox {  
+.personWeekBox {
   border: solid black 1px;
+  display: flex;
 }
 
 #personWeek * {
   border: solid black 1px;
+}
+
+.personWeekRight {
+  padding: 10px;
+}
+
+.personWeekRight h3 {
+  font-size: 20px;
+}
+
+#fourthSection {
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.fourthSectionBox {
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 200px;
+}
+
+#fourthSection * {
+  border: solid blue 1px;
+}
+
+.fourthSectionLeft {
+  display: flex;
+  align-items: center;
+  border: solid black 1px;
+}
+
+.fourthSectionRight{
+
 }
