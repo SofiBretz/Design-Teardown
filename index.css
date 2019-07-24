@@ -20,9 +20,27 @@ header {
 
 .headerBox h3 {
   width: min-content;
-  border: solid green 1px;
 }
 
 #firstSection {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 790px 790px;
+  background: gray;
+}
+
+.firstSectionFloat{
+  border: solid white 1px;
+  margin-top: 50px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+#titleFloat{
+  border: solid black 1px;
+  display: inline-block;
+}
+.firstSectionBox {
+  border: solid blue 1px;
 }
