@@ -23,6 +23,10 @@ nav {
   width: min-content;
 }
 
+section {
+  margin: 10px 0 10px 0;
+}
+
 #firstSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -86,7 +90,6 @@ nav {
 }
 
 .secondSectionBox3 {
-  border: solid black 1px;
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 800px;
@@ -94,7 +97,6 @@ nav {
 
 #thirdSection {
   height: 800px;
-  border: solid black 1px;
   color: white;
   background: gray;
   display: flex;
@@ -103,12 +105,7 @@ nav {
 }
 
 .personWeekBox {
-  border: solid black 1px;
   display: flex;
-}
-
-#personWeek * {
-  border: solid black 1px;
 }
 
 .personWeekRight {
@@ -120,7 +117,6 @@ nav {
 }
 
 #fourthSection {
-  border: solid black 1px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
@@ -133,16 +129,60 @@ nav {
   grid-template-rows: 200px;
 }
 
-#fourthSection * {
-  border: solid blue 1px;
-}
-
 .fourthSectionLeft {
   display: flex;
   align-items: center;
+  padding: 10px;
+}
+
+.fourthSectionLeft img {
+  border-radius: 10px;
+}
+
+#fifthSection {
   border: solid black 1px;
 }
 
-.fourthSectionRight{
-
+.fifthSectionBox {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 300px;
+  color: white;
+  background: #6b6b6b;
 }
+
+.fifthSectionLeft {
+  padding: 40px 80px 40px 70px;
+}
+
+.fifthSectionRight img {
+  height: 250px;
+  width: 200px;
+}
+
+#sixthSection * {
+  border: solid green 1px;
+}
+
+#sixthSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 800px;
+}
+
+.sixthSectionBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sixthSectionBox li   {
+  padding: 0;
+}
+
+/*
+li {
+    list-style-type:none;
+    background-image:url(bullet.png);
+}
+*/
