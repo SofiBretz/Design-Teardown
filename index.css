@@ -62,13 +62,42 @@ header {
 }
 
 #secondSection {
-  display: flex;
-  grid-template-columns: repeat(3, 25%);
-  grid-template-rows: 800px 800px 800px;
   border: solid black 1px;
-  background: orange;
+  background: gray;
+  color: white;
+}
+
+.secondSectionBox1 {
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: 800px;
 }
 
 .secondSectionBox {
   border: solid black 1px;
+}
+
+.secondSectionBox2 {
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 800px;
+}
+
+.secondSectionBox3 {
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 800px;
+}
+
+#thirdSection {
+  height: 800px;
+  border: solid black 1px;
+  color: white;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
