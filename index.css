@@ -178,11 +178,43 @@ section {
 
 .sixthSectionBox li   {
   padding: 0;
+  list-style-type:none;
+  background-image: url("https://www.smashingmagazine.com/images/bullet.svg");
+  background-repeat: no-repeat;
+  background-position: 20%;
+  font-size: 22px;
+  margin-top: 20px;
 }
 
-/*
-li {
-    list-style-type:none;
-    background-image:url(bullet.png);
+.sixthSectionBox h3{
+  font-size: 40px;
 }
-*/
+
+#seventhSection {
+  height: 800px;
+  color: white;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seventhSectionBox h1{
+  font-size: 44px;
+  text-align: center;
+}
+
+/*footer*/
+#footerSection *{
+  border: solid black 1px;
+}
+
+#footerSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerSectionBox {
+
+}
