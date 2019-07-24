@@ -1,5 +1,6 @@
 body * {
   box-sizing: border-box;
+  font-family: 'Roboto';
 }
 
 header {
@@ -30,7 +31,6 @@ header {
 }
 
 .firstSectionFloat{
-  border: solid white 1px;
   margin-top: 50px;
   position: absolute;
   text-align: center;
@@ -38,9 +38,37 @@ header {
 }
 
 #titleFloat{
-  border: solid black 1px;
   display: inline-block;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  background: black;
+  padding: 5px;
 }
+
 .firstSectionBox {
+  display: flex;
   border: solid blue 1px;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstSectionBox h1 {
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#secondSection {
+  display: flex;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: 800px 800px 800px;
+  border: solid black 1px;
+  background: orange;
+}
+
+.secondSectionBox {
+  border: solid black 1px;
 }
