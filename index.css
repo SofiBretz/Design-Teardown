@@ -80,7 +80,18 @@ section {
 
 #secondSection {
   border: solid black 1px;
-  background: gray;
+  color: black;
+  background: #f6f3f2;
+  font-size: 20px;
+}
+
+.ss21, .ss33 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #d33a2c;
+  text-align: center;
+  font-size: 24px;
   color: white;
 }
 
@@ -93,6 +104,9 @@ section {
 
 .secondSectionBox {
   border: solid black 1px;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 .secondSectionBox2 {
@@ -111,18 +125,33 @@ section {
 #thirdSection {
   height: 800px;
   color: white;
-  background: gray;
+  background: #009245;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 36px;
+  text-align: center;
 }
 
 .personWeekBox {
   display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.personWeekLeft {
+  margin-left: 20px;
+  transform: rotate(350deg);
+}
+
+.personWeekLeft img {
+  border: solid red 5px;
+  border-radius: 5px;
 }
 
 .personWeekRight {
-  padding: 10px;
+  padding: 30px;
 }
 
 .personWeekRight h3 {
@@ -136,7 +165,6 @@ section {
 }
 
 .fourthSectionBox {
-  border: solid black 1px;
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 200px;
@@ -173,13 +201,13 @@ section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 800px;
+  background: #f6f3f2;
 }
 
 .sixthSectionBox {
   display: flex;
   flex-direction: column;
   text-align: center;
-  border: solid black 1px;
 }
 
 .sixthSectionBox li   {
@@ -189,6 +217,7 @@ section {
   background-repeat: no-repeat;
   background-position: 20%;
   font-size: 22px;
+  color: #006fc6;
   margin-top: 20px;
 }
 
