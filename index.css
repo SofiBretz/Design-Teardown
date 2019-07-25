@@ -21,10 +21,6 @@ nav {
   width: min-content;
 }
 
-section {
-  margin: 10px 0 10px 0;
-}
-
 #firstSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -65,7 +61,7 @@ section {
 
 .firstSectionBox {
   display: flex;
-  border: solid blue 1px;
+  border: solid black 1px;
   align-items: center;
   justify-content: center;
 }
@@ -185,11 +181,16 @@ section {
   grid-template-columns: 4fr 1fr;
   grid-template-rows: 300px;
   color: white;
-  background: #6b6b6b;
+  background: #d33a2c;
 }
 
 .fifthSectionLeft {
   padding: 40px 80px 40px 70px;
+}
+
+.fifthSectionLeft h3{
+  font-size: 45px;
+  font-weight: bold;
 }
 
 .fifthSectionRight img {
@@ -226,9 +227,8 @@ section {
 }
 
 #seventhSection {
-  height: 800px;
+  height: 850px;
   color: white;
-  background: gray;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,10 +239,20 @@ section {
   text-align: center;
 }
 
+.seventhSectionBox{
+  display: flex;
+  width: 85%;
+  background: #d33a2c;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*footer*/
 footer {
-  height: 800px;
-  border: solid black 1px;
+  background: #d33a2c;
+  color: white;
 }
 
 #footerSection {
@@ -252,7 +262,6 @@ footer {
 }
 
 .footerSectionBox {
-  border: solid black 1px;
   display: flex;
   justify-content: center;
 }
@@ -264,21 +273,21 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   width: 70%;
-  padding-top: 40px;
   margin: auto;
 }
 
 .footerSectionBox li {
-  margin-top: 20px;
   margin-right: 20px;
   padding: 0;
   color: white;
   font-size: 18px;
   font-weight: bold;
+  margin-top: 5px;
 }
 
 .footerSectionBox a {
   text-decoration: none;
+  color: white;
 }
 
 #footerText {
@@ -292,7 +301,6 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   width: 30%;
-  border: solid black 1px;
 }
 
 #footerLinks a {
