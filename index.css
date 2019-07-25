@@ -1,6 +1,6 @@
 body * {
   box-sizing: border-box;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -51,6 +51,28 @@ nav {
   background: rgb(188, 52, 40);
 }
 
+.firstSectionBox img {
+  width: 75px;
+  height: 75px;
+  border: solid white 4px;
+  border-radius: 7px;
+  transform: rotate(350deg);
+}
+
+.firstSectionBox figure {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.firstSectionBox figcaption {
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 #titleFloat {
   display: inline-block;
   color: white;
@@ -62,14 +84,15 @@ nav {
 
 .firstSectionBox {
   display: flex;
+  flex-direction: column;
   border: solid black 1px;
   align-items: center;
   justify-content: center;
 }
 
 .firstSectionBox h1 {
-  width: 80%;
-  text-align: center;
+  width: 60%;
+  text-align: left;
   font-size: 30px;
   letter-spacing: 2px;
   color: white;
