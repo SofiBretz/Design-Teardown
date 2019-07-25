@@ -118,15 +118,23 @@ nav {
 .secondSectionBox1 {
   border: solid black 1px;
   display: grid;
-  grid-template-columns: repeat(3, 33%);
+  grid-template-columns: repeat(3, 25%);
   grid-template-rows: 800px;
 }
 
 .secondSectionBox {
   border: solid black 1px;
   display: flex;
+  flex-direction: column;
   text-align: center;
   align-items: center;
+  padding-top: 50px;
+}
+
+.secondSectionBox p {
+  width: 90%;
+  line-height: 2;
+  padding: 30px;
 }
 
 .secondSectionBox2 {
