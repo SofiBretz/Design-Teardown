@@ -7,8 +7,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 150px;
-  background: gray;
-  border: solid black 1px;
+  background: rgb(211, 58, 44);
 }
 
 .headerBox {
@@ -16,8 +15,7 @@ nav {
   align-items: center;
   justify-content: center;
   color: white;
-  border: solid black 1px;
-}
+  }
 
 .headerBox h3 {
   width: min-content;
@@ -39,6 +37,21 @@ section {
   position: absolute;
   text-align: center;
   width: 100%;
+}
+.fs1{
+  background: #b13125;
+}
+
+.fs2 {
+  background: rgb(188, 52, 40);
+}
+
+.fs3{
+  background: #b13125;
+}
+
+.fs4 {
+  background: rgb(188, 52, 40);
 }
 
 #titleFloat{
@@ -206,7 +219,7 @@ footer {
 #footerSection {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px 200px 100px 100px;
+  grid-template-rows: 100px 200px 200px 100px;
 }
 
 .footerSectionBox {
@@ -216,7 +229,6 @@ footer {
 }
 
 .footerSectionBox ul {
-  border: solid black 1px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -240,8 +252,21 @@ footer {
   text-decoration: none;
 }
 
-.f3 {
+#footerText {
   display: flex;
   flex-direction: column;
-  border: solid green 50px !important;
+  align-items: center;
+}
+
+#footerLinks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 30%;
+  border: solid black 1px;
+}
+
+#footerLinks a {
+margin-right: 10px;
+text-decoration: underline;
 }
