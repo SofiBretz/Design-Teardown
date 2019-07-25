@@ -15,7 +15,7 @@ nav {
   align-items: center;
   justify-content: center;
   color: white;
-  }
+}
 
 .headerBox h3 {
   width: min-content;
@@ -28,13 +28,14 @@ nav {
   background: gray;
 }
 
-.firstSectionFloat{
+.firstSectionFloat {
   margin-top: 50px;
   position: absolute;
   text-align: center;
   width: 100%;
 }
-.fs1{
+
+.fs1 {
   background: #b13125;
 }
 
@@ -42,7 +43,7 @@ nav {
   background: rgb(188, 52, 40);
 }
 
-.fs3{
+.fs3 {
   background: #b13125;
 }
 
@@ -50,7 +51,7 @@ nav {
   background: rgb(188, 52, 40);
 }
 
-#titleFloat{
+#titleFloat {
   display: inline-block;
   color: white;
   font-size: 26px;
@@ -81,7 +82,7 @@ nav {
   font-size: 20px;
 }
 
-.ss21, .ss33 {
+.secondSectionSpecialBox {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,7 +95,7 @@ nav {
 .secondSectionBox1 {
   border: solid black 1px;
   display: grid;
-  grid-template-columns: repeat(3, 25%);
+  grid-template-columns: repeat(3, 33%);
   grid-template-rows: 800px;
 }
 
@@ -188,7 +189,7 @@ nav {
   padding: 40px 80px 40px 70px;
 }
 
-.fifthSectionLeft h3{
+.fifthSectionLeft h3 {
   font-size: 45px;
   font-weight: bold;
 }
@@ -211,9 +212,9 @@ nav {
   text-align: center;
 }
 
-.sixthSectionBox li   {
+.sixthSectionBox li {
   padding: 0;
-  list-style-type:none;
+  list-style-type: none;
   background-image: url("https://www.smashingmagazine.com/images/bullet.svg");
   background-repeat: no-repeat;
   background-position: 20%;
@@ -222,7 +223,7 @@ nav {
   margin-top: 20px;
 }
 
-.sixthSectionBox h3{
+.sixthSectionBox h3 {
   font-size: 40px;
 }
 
@@ -234,12 +235,12 @@ nav {
   justify-content: center;
 }
 
-.seventhSectionBox h1{
+.seventhSectionBox h1 {
   font-size: 44px;
   text-align: center;
 }
 
-.seventhSectionBox{
+.seventhSectionBox {
   display: flex;
   width: 85%;
   background: #d33a2c;
@@ -249,7 +250,8 @@ nav {
   justify-content: center;
 }
 
-/*footer*/
+/* FOOTER */
+
 footer {
   background: #d33a2c;
   color: white;
@@ -304,6 +306,6 @@ footer {
 }
 
 #footerLinks a {
-margin-right: 10px;
-text-decoration: underline;
+  margin-right: 10px;
+  text-decoration: underline;
 }
