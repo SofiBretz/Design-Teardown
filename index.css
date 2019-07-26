@@ -1,0 +1,342 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 150px;
+  background: rgb(211, 58, 44);
+}
+
+.headerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.headerBox h3 {
+  width: min-content;
+}
+
+#firstSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 790px 790px;
+  background: gray;
+}
+
+.firstSectionFloat {
+  margin-top: 50px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.fs1 {
+  background: #b13125;
+}
+
+.fs2 {
+  background: rgb(188, 52, 40);
+}
+
+.fs3 {
+  background: #b13125;
+}
+
+.fs4 {
+  background: rgb(188, 52, 40);
+}
+
+.firstSectionBox img {
+  width: 75px;
+  height: 75px;
+  border: solid white 4px;
+  border-radius: 7px;
+  transform: rotate(350deg);
+}
+
+.firstSectionBox figure {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.firstSectionBox figcaption {
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#titleFloat {
+  display: inline-block;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  background: black;
+  padding: 5px;
+}
+
+.firstSectionBox {
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstSectionBox h1 {
+  width: 60%;
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#secondSection {
+  border: solid black 1px;
+  color: black;
+  background: #f6f3f2;
+  font-size: 20px;
+}
+
+.secondSectionSpecialBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #d33a2c;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.secondSectionBox1 {
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: 800px;
+}
+
+.secondSectionBox {
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.secondSectionBox p {
+  width: 90%;
+  line-height: 2;
+  padding: 30px;
+}
+
+.secondSectionBox2 {
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 800px;
+}
+
+.secondSectionBox3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 800px;
+}
+
+#thirdSection {
+  height: 800px;
+  color: white;
+  background: #009245;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  text-align: center;
+}
+
+.personWeekBox {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.personWeekLeft {
+  margin-left: 20px;
+  transform: rotate(350deg);
+}
+
+.personWeekLeft img {
+  border: solid red 5px;
+  border-radius: 5px;
+}
+
+.personWeekRight {
+  padding: 30px;
+}
+
+.personWeekRight h3 {
+  font-size: 20px;
+}
+
+#fourthSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.fourthSectionBox {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 200px;
+}
+
+.fourthSectionLeft {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.fourthSectionLeft img {
+  border-radius: 10px;
+}
+
+.fifthSectionBox {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 300px;
+  color: white;
+  background: #d33a2c;
+}
+
+.fifthSectionLeft {
+  padding: 40px 80px 40px 70px;
+}
+
+.fifthSectionLeft h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.fifthSectionRight img {
+  height: 250px;
+  width: 200px;
+}
+
+#sixthSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 800px;
+  background: #f6f3f2;
+}
+
+.sixthSectionBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sixthSectionBox li {
+  padding: 0;
+  list-style-type: none;
+  background-image: url("https://www.smashingmagazine.com/images/bullet.svg");
+  background-repeat: no-repeat;
+  background-position: 20%;
+  font-size: 22px;
+  color: #006fc6;
+  margin-top: 20px;
+}
+
+.sixthSectionBox h3 {
+  font-size: 40px;
+}
+
+#seventhSection {
+  height: 850px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seventhSectionBox h1 {
+  font-size: 44px;
+  text-align: center;
+}
+
+.seventhSectionBox {
+  display: flex;
+  width: 85%;
+  background: #d33a2c;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* FOOTER */
+
+footer {
+  background: #d33a2c;
+  color: white;
+}
+
+#footerSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 200px 200px 100px;
+}
+
+.footerSectionBox {
+  display: flex;
+  justify-content: center;
+}
+
+.footerSectionBox ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.footerSectionBox li {
+  margin-right: 20px;
+  padding: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.footerSectionBox a {
+  text-decoration: none;
+  color: white;
+}
+
+#footerText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footerLinks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+#footerLinks a {
+  margin-right: 10px;
+  text-decoration: underline;
+}
